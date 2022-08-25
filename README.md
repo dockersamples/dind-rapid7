@@ -43,5 +43,8 @@ UBUNTU_CODENAME=focal
 root@83f3f33e4643:/#
 ```
 
+## Docker Commit Script
 
-
+```
+ sh docker-commit-script.sh
+```
