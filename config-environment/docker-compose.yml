@@ -1,0 +1,7 @@
+services:
+  build-frontend:
+		entrypoint:
+			- bash
+			- -c
+			- "[[ \"$PROD_BUILD\" == \"true\" ]] && make fe-prod || make fe-dev"
+
