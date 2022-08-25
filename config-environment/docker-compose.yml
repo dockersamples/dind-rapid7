@@ -2,7 +2,7 @@ services:
   build-frontend:
      image: webapp
      entrypoint:
-	- bash
-	- -c
-	- "[[ \"$PROD_BUILD\" == \"true\" ]] && make fe-prod || make fe-dev"
+       - bash
+       - -c
+       - "[[ \"$PROD_BUILD\" == \"true\" ]] && make fe-prod || make fe-dev"
 
