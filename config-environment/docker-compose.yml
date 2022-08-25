@@ -1,6 +1,7 @@
 services:
   build-frontend:
-     image: webapp
+     image: dind-first-step
+     command: bash -c "apt update && apt install make"
      entrypoint:
        - bash
        - -c
