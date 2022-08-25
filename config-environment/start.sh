@@ -9,4 +9,4 @@ do
 		shift
 done
 
-export PROD_BUILD=$PROD_BUILD
+
