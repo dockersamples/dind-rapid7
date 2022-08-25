@@ -1,0 +1,6 @@
+services:
+	dind-test:
+	  image: dind-first-step
+	  volumes:
+	  	- /var/backups:/var/backups:z
+		  - /var/run/docker.sock:/var/run/docker.sock
